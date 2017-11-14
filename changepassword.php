@@ -38,7 +38,7 @@ if(Input::exists()) {
                 ));
                 
                 Session::flash('home', 'Your password has been changed!');
-                Redirect::to('index.php')
+                Redirect::to('index.php');
             }
             
         } else {
